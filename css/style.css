@@ -202,7 +202,9 @@ header{
     padding: 60px 0;
 }
 
-
+.customPadding{
+    padding: 25px;
+}
 
 .planningSection{
     color: white;
@@ -220,7 +222,7 @@ header{
 }
 
 .planningCardPadding{
-    padding: 10px 25px;
+    padding: 10px 25px 30px;
 }
 
 .planningCard button{
@@ -229,6 +231,10 @@ header{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+.sectionTitle{
+    font-size: 32px;
 }
 
 strong{
@@ -265,8 +271,17 @@ h3{
     text-align: center;
 }
 
+.testimonialSection p{
+    font-size: 17px;
+}
+
 .cardName{
     font-size: 22px;
+}
+
+.quotationsIcon{
+    font-size: 22px;
+    padding: 7px;
 }
 
 /* MEDIAQUERY */
@@ -295,6 +310,10 @@ h3{
         
         flex-direction: row;
         row-gap: 30px;
+    }
+
+    .customPadding{
+        padding: 25px 50px;
     }
 
     .col-4{
@@ -352,6 +371,7 @@ h3{
     .col-6{
         width: 50%;
     }
+    
     
 
     .col-6.bottomPosition{
