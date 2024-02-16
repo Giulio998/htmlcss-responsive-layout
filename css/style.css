@@ -251,7 +251,7 @@ h3{
 }
 
 .testimonialsPadding{
-    padding: 30px 25px;
+    padding: 30px 25px 80px;
 }
 
 .testimonialImg{
@@ -282,6 +282,59 @@ h3{
 .quotationsIcon{
     font-size: 22px;
     padding: 7px;
+}
+
+.benefitSection{
+    background-color: #9593E6;
+}
+
+.benefitCol{
+    width: 100%;
+}
+
+.benefitCardPadding{
+    padding: 30px 25px;
+}
+
+.benefitCard{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.benefitCard h3{
+    color:#9593E6; 
+}
+
+.benefitCard button{
+    background-color: #9593E6;
+    width: 50%;
+     
+}
+
+.benefitCard h3{
+    font-size: 25px;
+}
+
+.benefitCard .cardNumber{
+    font-size: 60px;
+}
+
+.benefitCard p{
+    padding: 0px 0px 20px 0;
+    line-height: 25px;
+}
+
+.benefitCard button a{color: white;}
+
+.benefitColPadding{
+    padding: 15px 25px;
+}
+
+.benefitSection h2{
+    color: white;
+    font-size: 35px;
+    padding: 60px 25px;
+    text-align: center;
 }
 
 /* MEDIAQUERY */
@@ -345,6 +398,10 @@ h3{
     .testimonialCardBody{
         justify-content: center;
     }
+
+    .benefitCol{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -399,5 +456,13 @@ h3{
 
     .planningCardPadding{
         padding: 0 20px;
+    }
+
+    .benefitCol{
+        width: 33%
+    }
+
+    .benefitColPadding{
+        padding: 15px;
     }
 }
