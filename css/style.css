@@ -47,6 +47,9 @@ a{
     padding: 25px;
 }
 
+.gap10px{
+    gap: 10px;
+}
 
 .gap15px{
     gap: 15px;
