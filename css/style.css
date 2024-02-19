@@ -60,6 +60,7 @@ a{
 }
 
 
+
 .directionColumn{
     flex-direction: column;
 }
@@ -76,6 +77,14 @@ a{
     margin-bottom: 25px;
 }
 
+.marginBottom35px{
+    margin-bottom: 35px;
+}
+
+.marginBottom60px{
+    margin-bottom:60px;
+}
+
 .paddingBottom25{
     padding-bottom: 25px;
 }
@@ -90,6 +99,14 @@ a{
 
 .marginTop35px{
     margin-top: 35px;
+}
+
+.paddingRight15px{
+    padding-right: 15px;
+}
+
+.padding60px25px{
+    padding: 60px 25px;
 }
 
 /* Style Elements */
@@ -340,6 +357,66 @@ h3{
     text-align: center;
 }
 
+.aboutUsSection p{
+    font-size: 20px;
+}
+
+.aboutUsSection h2{
+    font-size: 35px;
+    color: #9593E6;
+}
+
+.aboutUsSection h3{
+    font-size: 23px;
+    color: #9593E6;
+}
+
+.aboutUsSection button{
+    width: 55%;
+    background-color: #9792E4;
+}
+
+.aboutUsSection a{
+    color: white;
+}
+
+.getStarted{
+    color: white;
+    background-color:#9792E4; ;
+}
+
+.getStarted h2{
+    font-size: 60px;
+    color: #FDC15F;
+}
+
+.getStarted h3{
+    font-size: 30px;
+    padding: 0px 22px;
+    
+}
+
+.getStarted button{
+    width: 80%;
+    height: 45px;
+}
+
+.getStarted button a{
+    font-size: 18px;
+    color:#9792E4 ;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+}
+
+footer a{
+    color: -webkit-link;
+    text-decoration: underline;
+}
+
+
 /* MEDIAQUERY */
 
 @media screen and (max-width: 576px) {
@@ -405,6 +482,49 @@ h3{
     .benefitCol{
         width: 50%;
     }
+
+    .col100{
+        display: flex;
+    }
+
+    .col30{
+        width: 30%;
+    }
+
+    .col70{
+        width: 70%;
+        padding-right: 100px;
+    }
+
+    .aboutUsSection button{
+        width: 70%;
+    }
+
+    .getStarted h2{
+        font-size: 80px;
+    }
+
+    .getStarted h3{
+        font-size: 45px;
+    }
+
+    .getStarted button {
+        width: 40%;
+        height: 50px;
+    }
+
+    .getStarted .sectionTitle{
+        font-size: 20px;
+    }
+
+    .getStarted p:not(.sectionTitle){
+        padding: 0px 130px;
+    }
+
+    footer .padding25px{
+        padding: 25px 155px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -468,4 +588,18 @@ h3{
     .benefitColPadding{
         padding: 15px;
     }
+
+    .aboutUsSection .padding60px25px{
+        padding: 60px 40px;
+
+    }
+
+    .col30{
+        margin-left: 40px;
+    }
+
+    footer .padding25px{
+        padding: 25px 300px;
+    }
+
 }
